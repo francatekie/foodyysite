@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&family=Roboto:ital,wght@0,500;1,500&family=Work+Sans:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.cart img{
+    height: 20px;
+    width: 20px;
+    padding: 1px;
+    margin: 5px;
+}
+.search img{
+    height: 20px;
+    width: 20px;
+    padding: 1px;
+    margin: 5px;
+}
+.logo{
+    display: flex;
+    margin-left: 20px;
+}
+.logo img{
+    height: 25px;
+    width: 30px;
+}
+.right-icons{
+    display: inline;
+    margin-right: 33px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+ul{
+    display: flex;
+    
+
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+   margin: 20px;
+   font-family:Arial, Helvetica, ;
+   
+}
+.menu{
+    text-align: center;
+    font-family: Arial, Helvetica,;
+}
+.food-list{
+    display: flex;
+    margin: 1rem;
+    margin-left: 110px;
+    margin-top: 20px;
+    
+}
+.f{
+    background-color: rgb(27,194,55) ;;
+}
+.list-1{
+    background-color: transparent;
+    height: 40px;
+    width: 70px;
+    margin: 12px;
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(27,194,55) ;
+}
+.list-1 p,.list-2 p,.list-3 p,.list-4 p,.list-5 p,.list-6 p,.list-7 p {
+margin-top: 9px;
+text-align: center;
+
+}
+.list-8 p ,.list-9 p{
+    margin-top: 9px;
+    text-align: center;
+}
+.list-2{
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    margin: 12px;
+    border-style: solid;
+    border-radius: 20px;
+    
+}
+
+.list-3{
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    margin: 12px;
+    border-style: solid;
+    border-radius: 20px;
+    
+}
+
+.list-4{
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    margin: 12px;
+    border-style: solid;
+    border-radius: 20px;
+   
+}
+.list-5{
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    margin: 12px;
+    border-style: solid;
+    border-radius: 20px;
+    
+}
+.list-6{
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    margin: 12px;
+    border-style: solid;
+    border-radius: 20px;
+   
+}
+.list-7{
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    margin: 12px;
+    border-style: solid;
+    border-radius: 20px;
+   
+}
+.list-8{
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    margin: 12px;
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+   
+}
+.list-9{
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    margin: 12px;
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.list-1 p{
+    text-align: center;
+}
+.menu-list{
+    display: flex;
+    margin-left: 40px;
+}
+.menu-1{
+height: 210px;
+width: 270px;
+background-color: transparent;
+border-style: solid;
+margin: 20px;
+}
+.menu-1 img{
+    height: 200px;
+    width: 260px;
+    margin-left: 5px;
+    margin-top: 6px
+    
+}
+.menu-2{
+    height: 210px;
+    width: 270px;
+    background-color: transparent;
+    border-style: solid;
+    margin: 20px;
+} 
+.menu-3{
+height: 210px;
+width: 270px;
+ background-color: transparent;
+border-style: solid;    
+margin: 20px;
+}
+.menu-3 img{
+    height: 210px;
+    width: 260px;
+}
+.menu-4{
+height: 210px;
+width: 270px;
+background-color: transparent;
+margin: 20px;
+ border-style: solid;            
+}
+.menu-4 img{
+    height: 210px;
+    width: 260px;
+}
+.fastest{
+    margin-left: 110px;
+    margin-top: 60px;
+}
+.fastest img{
+    height: 10px;
+    width: 10px;
+}
+.fastest p{
+    margin-top: 20px;
+    font-family:Arial, Helvetica, ;
+}
+.get{
+    display: flex;
+    margin-top: 20px;
+   
+}
+.get button{
+    font-family:Arial, Helvetica, ;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(71, 207, 71);
+      height: 20px;
+      width: 100px;
+}
+.get p{
+    margin: 10px;
+    font-family:Arial, Helvetica, ;
+}
+.works{
+    margin-top: 80px;
+    text-align: center;
+    
+}
+.works p{
+    margin: 10px;
+    font-family:Arial, Helvetica, ;
+}
+.delivery{
+    display: flex;
+    justify-content: center;
+}
+.pick,.choose ,.fast{
+    height: 300px;
+    width: 300px;
+    background-color: beige;
+    
+    margin: 20px;
+}
+.pick img,.choose img,.fast img{
+    height: 90px;
+    width: 90px;
+    margin-left: 110px;
+    margin-top: 10px;
+    
+
+}
+.pick h4,.fast h4{
+    margin-left: 110px;
+}
+.choose h4{
+    margin-left:90px ;
+    margin-top:10px ;
+}
+.text-1{
+    text-align: center;
+    margin-top: 30px;
+}
+.text-1 p{
+    margin: 10px;
+}
+.text-1 img{
+    height: 25px;
+    width: 25px;
+    
+}
+
+.special{
+    text-align: center;
+    margin-top: 70px;
+}
+.special h2,p{
+    margin-top: 20px;
+}
+.foods{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.my-menu-1,.my-menu-2,.my-menu-3,.my-menu-4{
+    height: 200px;
+    width: 250px;
+    background-color: beige;
+    margin: 20px;
+    background-color: transparent;
+    margin: 20px;
+    border-style: solid; 
+   
+}
+.my-menu-1 img,.my-menu-2 img,.my-menu-3 img,.menu-4 img{
+    height: 200px;
+    width: 250px;
+}
+.my-menu-2 img{
+height: 190px;
+width: 250px;
+}
+.my-menu-3 img{
+    height: 190px;
+    width: 250px;
+}
+.my-menu-4 img{
+    height: 200px;
+    width: 250px;
+}
+
+.second-foods{
+    display: flex;
+    justify-content: center;
+}
+.mine-5,.mine-6,.mine-7,.mine-8{
+    height: 200px;
+    width: 250px;
+    background-color: beige;
+    margin: 20px;
+    background-color: transparent;
+    margin: 20px;
+    border-style: solid; 
+}
+.mine-5 img,.mine-6 img,.mine-7 img{
+    height: 160px;
+    width: 250px;
+}
+.mine-8 img{
+    height: 200px;
+    width: 250px;
+}
+.more{
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+  
+  
+}
+.more button{
+    height: 40px;
+    width: 120px;
+    background-color:  rgb(27,194,55);
+    border: 2px;
+    border-radius: 7px;
+    color: white;
+}
+.blogs{
+    text-align: center;
+    margin-top: 70px;
+}
+.blogs p{
+    margin-top: 30px;
+}
+.order{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.order-1,.order-2 ,.order-3{
+    height: 300px;
+    width: 300px;
+    background-color: beige;
+margin: 20px;
+filter: drop-shadow(100px,100px rgb) blur(20px)}
+.order-1 img{
+    height: 160px;
+    width: 300px;
+}
+.order-2 img{
+    height: 160px;
+    width: 300px;
+}
+.order-3 img{
+    height: 160px;
+    width: 300px;
+}
+
+.learn{
+   
+    text-align: left;
+    margin-top: 0px;
+}
+.learn h4,h5{
+    margin-left: 10px;
+}
+.learn p{
+    margin: 10px;}
+.last{
+    margin-top: 80px;
+    height: 300px;
+    width: auto;
+    background-color: rgb(27,194,55);
+    }
+.last-text {
+    
+text-align: center;
+display: flex;
+justify-content: center;
+    }
+    .last-text h4{
+        margin: 30px;
+    }
+.last-text h1{
+        text-align: end;
+        margin-top: 20px;
+    }
+.quick p{
+    text-align: left;
+    align-items: center;
+    }
+    
+ .news p,h4{
+text-align: left;
+margin-left: 30px;
+    }
